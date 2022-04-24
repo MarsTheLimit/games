@@ -1,0 +1,75 @@
+:root {
+	color-scheme: light;
+	--white: #f0f1f3;
+	--dark-blue: #002879;
+	--light-blue: #b6ccf8;
+}
+
+html, body {
+	background: var(--white);
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: right;
+    list-style: none;
+	text-align: right;
+}
+
+.navbar-item {
+    height: 20px;
+}
+
+.navbar-link {
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+}
+
+.navbar-link:hover {
+	color: var(--dark-blue);
+}
+
+.content-container {
+	margin: 5%;
+	padding: 10px;
+	text-align: center;
+}
+
+.content-container {
+	
+}
+
+.content-container a{
+	text-decoration: none; 
+	color: var(--dark-blue);
+}
+
+.content-container a:hover{
+	color: var(--light-blue);
+}
+
+.result {
+	border-radius: 10px;
+	background: var(--light-blue);
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.result:hover {
+	background: var(--dark-blue);
+}
+
+.how-to-play {
+	padding: 10px;
+	text-align: left;
+	margin: 5%;
+}
